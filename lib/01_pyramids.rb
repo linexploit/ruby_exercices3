@@ -2,6 +2,7 @@ puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
 print "> "
 level_pyramid = gets.chomp.to_i
 
+#FULL PYRAMID
 def full_pyramide (level_pyramid)
 while level_pyramid < 1 || level_pyramid > 25
   puts "Choisis un nombre entre 1 et 25"
